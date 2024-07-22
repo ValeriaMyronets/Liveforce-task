@@ -1,27 +1,25 @@
-# TestTask
+# Mouse Tracking Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+This Angular application tracks mouse movement within a specified area and displays the X and Y coordinates on the page. The application includes a button to toggle tracking on and off. The application demonstrates the use of Angular components, RxJS for event handling, and state management using NgRx.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Tracks mouse movement coordinates (X and Y) within a specified area.
+- Toggles mouse tracking on and off with a button.
+- Efficiently handles DOM updates using RxJS operators.
+- Demonstrates Angular decorators and ChangeDetectionStrategy.OnPush.
+- Uses NgRx for state management.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular](https://angular.io/): A TypeScript-based open-source web application framework.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapid UI development.
+- [RxJS](https://rxjs.dev/): A library for reactive programming using Observables.
+- [NgRx](https://ngrx.io/): State management library for Angular applications.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+ **Start the development server:**
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   ng serve
